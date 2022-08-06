@@ -24,7 +24,7 @@ import com.lucreciaguisasola.portfolio.services.IProyectService;
 public class PortfolioController {
     
     //******************************************************************
-    // PERSONA
+    // PERSON
     @Autowired
     private IPersonService personServ;
     
@@ -62,7 +62,7 @@ public class PortfolioController {
     
     
     //******************************************************************
-    // EDUCACION
+    // EDUCATION
     @Autowired
     private IEducationService eduServ;
     
@@ -96,7 +96,7 @@ public class PortfolioController {
 
     
     //******************************************************************
-    // EXPERIENCIA
+    // EXPERIENCE
     @Autowired
     private IExperienceService expServ;
     
@@ -131,7 +131,7 @@ public class PortfolioController {
 
     
     //******************************************************************
-    //HABILIDAD
+    //SKILL
     @Autowired
     private ISkillService skillServ;
     
@@ -162,7 +162,7 @@ public class PortfolioController {
 
     
     //******************************************************************
-    // PROYECTO
+    // PROYECT
     @Autowired
     private IProyectService proyServ;
     

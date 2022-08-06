@@ -7,10 +7,10 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class PortafolioApplication {
+public class PortfolioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PortafolioApplication.class, args);
+		SpringApplication.run(PortfolioApplication.class, args);
 	}
         
         @Bean
@@ -20,7 +20,7 @@ public class PortafolioApplication {
                 public void addCorsMappings(CorsRegistry registry){
                     registry.addMapping("/*").
                             allowedOrigins("https://lucreciaguisasola-portfolioen.firebaseapp.com/").
-                            allowedHeaders("").allowedMethods("*");
+                            allowedHeaders("*").allowedMethods("*");
                     
                 }
             };

@@ -20,7 +20,7 @@ public class PortfolioApplication {
                 public void addCorsMappings(CorsRegistry registry){
                     registry.addMapping("/*").
                             allowedOrigins("https://lucreciaguisasola-portfolioen.firebaseapp.com/").
-                            allowedHeaders("*").allowedMethods("*");
+                            allowedHeaders("").allowedMethods("*");
                     
                 }
             };

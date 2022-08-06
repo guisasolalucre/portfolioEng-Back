@@ -19,12 +19,8 @@ import com.lucreciaguisasola.portfolio.services.IExperienceService;
 import com.lucreciaguisasola.portfolio.services.ISkillService;
 import com.lucreciaguisasola.portfolio.services.IPersonService;
 import com.lucreciaguisasola.portfolio.services.IProyectService;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-@CrossOrigin(origins="https://lucreciaguisasola-portfolioen.web.app/portfolio")  
-@RequestMapping("/")
 public class PortfolioController {
     
     //******************************************************************

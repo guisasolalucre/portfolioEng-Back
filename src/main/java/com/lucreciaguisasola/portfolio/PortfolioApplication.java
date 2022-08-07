@@ -20,8 +20,8 @@ public class PortfolioApplication {
                 public void addCorsMappings(CorsRegistry registry){
                     registry.addMapping("/*").
                             allowedOrigins("https://lucreciaguisasola-portfolioen.web.app/").
-                            allowedHeaders("").allowedMethods("*");
-                    
+                            allowedHeaders("*").
+                            allowedMethods("GET", "POST", "PUT", "DELETE");
                 }
             };
         }

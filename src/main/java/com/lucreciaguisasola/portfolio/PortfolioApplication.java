@@ -18,7 +18,7 @@ public class PortfolioApplication {
             return new WebMvcConfigurer(){
                 @Override
                 public void addCorsMappings(CorsRegistry registry){
-                    registry.addMapping("/*")
+                    registry.addMapping("/**")
                             .allowedOrigins("https://lucreciaguisasola-portfolioen.web.app/")
                             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
                 }

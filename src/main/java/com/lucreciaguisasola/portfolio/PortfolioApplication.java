@@ -19,7 +19,7 @@ public class PortfolioApplication {
                 @Override
                 public void addCorsMappings(CorsRegistry registry){
                     registry.addMapping("/*").
-                            allowedOrigins("https://lucreciaguisasola-portfolioen.web.app/").
+                            allowedOrigins("https://lucreciaguisasola-portfolioen.web.app/portfolio").
                             allowedHeaders("*").
                             allowedMethods("GET", "POST", "PUT", "DELETE");
                 }

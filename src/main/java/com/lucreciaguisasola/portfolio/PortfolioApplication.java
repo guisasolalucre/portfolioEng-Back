@@ -13,7 +13,6 @@ public class PortfolioApplication {
 		SpringApplication.run(PortfolioApplication.class, args);
 	}
         
-        /*
         @Bean
         public WebMvcConfigurer corsConfigurer(){
             return new WebMvcConfigurer(){
@@ -22,10 +21,9 @@ public class PortfolioApplication {
                     registry.addMapping("/*").
                             allowedOrigins("https://lucreciaguisasola-portfolioen.web.app/").
                             allowedHeaders("*").
-                            allowedMethods("GET", "POST", "PUT", "DELETE");
+                            allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
                 }
             };
         }
-        */
-        
+
 }
